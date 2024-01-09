@@ -18,21 +18,21 @@ let c = 'hello';
 let d = 'world';
 let e = 'aPple';
 console.log (a > b);
-console.log (a==b);
+console.log (a == b);
 console.log (a < b);
 console.log (a >= b);
 console.log (a <= b);
 console.log (a === b);
 console.log (a != b);
 console.log (c > d);
-console.log (c==d);
+console.log (c == d);
 console.log (c < d);
 console.log (c >= d);
 console.log (c <= d);
 console.log (c === d);
 console.log (c != d);
 console.log (a > e);
-console.log (a==e);
+console.log (a == e);
 console.log (a < e);
 console.log (a >= e);
 console.log (a <= e);
@@ -44,7 +44,7 @@ let score = 32;
 if (score > 90) {
     console.log ('Отличная работа!')
 }
-else if (score > 70 && score <= 90) {
+else if (score > 70) {
     console.log ('Хорошая работа!')
 }
 else {
@@ -53,18 +53,18 @@ else {
 
 //task 4
 let number = 5;
-let result
+let result;
 result = number % 2 == 1 ?
-'«значение number» - нечетное число':
-'«значение number» - четное число';
-console.log (result);
+' - нечетное число':
+' - четное число';
+console.log (number + result);
 
 //task 5
 let num1 = 2;
 let num2 = 11;
 if (num1 > num2) {console.log ('num1 больше num2')}
 else if (num1 < num2) {console.log ('num2 больше num1')}
-else if (num1 == num2) {console.log ('num1 и num2 равны')};
+else {console.log ('num1 и num2 равны')};
 
 //task 6
 let fruit = 'джекфрут'
